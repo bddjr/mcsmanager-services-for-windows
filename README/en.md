@@ -50,3 +50,4 @@ Double click to run `all-stop.bat`
 ***
 ## Stop and remove services
 Double click to run `all-remove.bat`  
+![all-remove](all-remove.jpg)

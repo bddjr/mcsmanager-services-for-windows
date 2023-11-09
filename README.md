@@ -54,4 +54,4 @@ Language: zh_CN | [en](README/en.md)
 ***
 ## 立即停止并删除服务
 双击运行 `all-remove.bat`  
-
+![all-remove](README/all-remove.jpg)
