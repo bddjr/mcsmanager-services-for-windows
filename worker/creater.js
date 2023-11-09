@@ -1,7 +1,7 @@
 console.log('creater.js started');
 
 const mode = process.argv[2];
-console.log(`mode: ${mode}`)
+console.log(`mode: ${mode}`);
 
 const node_windows = require('node-windows');
 const Service = node_windows.Service;
@@ -13,6 +13,11 @@ function install(name){
     console.log(`MCSManager-${name}`);
 
     let can_not_find = false;
+    const workingDirectory = path.join(__dirname, `..\\..\\${name}\\`);
+    if (!fs.existsSync(workingDirectory)){
+        console.log(`Error: Can not find "${workingDirectory}"`);
+        can_not_find = true;
+    }
     const node_app_path = path.join(__dirname, `..\\..\\${name}\\node_app.exe`);
     if (!fs.existsSync(node_app_path)){
         console.log(`Error: Can not find "${node_app_path}"`);
@@ -30,6 +35,8 @@ function install(name){
         description: `MCSManager-${name}`,
         execPath: node_app_path,
         script: app_js_path,
+        // @ts-ignore
+        workingDirectory: workingDirectory,
     });
     svc.on('install',()=>{
         console.log(`MCSManager-${name} service on install`);
