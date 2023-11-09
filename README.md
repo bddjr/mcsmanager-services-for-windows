@@ -9,6 +9,9 @@ Language: zh_CN | [en](README/en.md)
 > Windows 10 专业版  
 > Windows 10 LTSC 2019  
 
+仓库：  
+> Gitee: <https://gitee.com/bddjr/mcsmanager-services-for-windows>  
+> Github: <https://github.com/bddjr/mcsmanager-services-for-windows>  
 ***
 ## 开始使用
 ### 1. 将 MCSManager 发行版下载并解压到C盘（解压到其它地方也不是不行）  

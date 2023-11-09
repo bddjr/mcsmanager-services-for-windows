@@ -9,6 +9,8 @@ Tested valid OS:
 > Windows 10 Professional Edition  
 > Windows 10 LTSC 2019  
 
+Github repertoty: <https://github.com/bddjr/mcsmanager-services-for-windows>  
+
 ***
 ## Get Start
 ### 1. Download and unzip the MCSManager release to the C drive (Decompression to another location is also possible)
