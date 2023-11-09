@@ -23,8 +23,8 @@ Language: zh_CN | [en](README/en.md)
 ### 2. 将该仓库的所有源码下载为zip并解压  
 
 下载地址  
-> 境内： <https://gitee.com/bddjr/mcsmanager-services-for-windows/repository/archive/master.zip>  
-> 境外： <https://github.com/bddjr/mcsmanager-services-for-windows/archive/refs/heads/master.zip>  
+> 境内： <https://gitee.com/bddjr/mcsmanager-services-for-windows/repository/archive/main.zip>  
+> 境外： <https://github.com/bddjr/mcsmanager-services-for-windows/archive/refs/heads/main.zip>  
 
 然后解压到包含`web`文件夹与`daemon`文件夹的位置，效果如下图  
 ![2](README/2.jpg)  

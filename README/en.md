@@ -20,7 +20,7 @@ The effect is shown in the following figure
 
 ### 2. Download all the source code of the repertoty as zip and extract it
 
-Download link: <https://github.com/bddjr/mcsmanager-services-for-windows/archive/refs/heads/master.zip>  
+Download link: <https://github.com/bddjr/mcsmanager-services-for-windows/archive/refs/heads/main.zip>  
 
 Then extract to the location containing the `web` folder and the `daemon` folder, as shown in the following image  
 ![2](2.jpg)  
