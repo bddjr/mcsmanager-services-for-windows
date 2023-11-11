@@ -14,4 +14,4 @@ Net session >nul 2>&1 || (
 sc start mcsmanagerdaemon.exe
 sc start mcsmanagerweb.exe
 
-if %1 neq nopause pause
+if "%1" neq "nopause" pause

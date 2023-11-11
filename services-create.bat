@@ -24,4 +24,4 @@ if exist ..\..\daemon\node_app.exe (
 ) else (
     echo Error: Can not find node_app.exe from daemon or web
 )
-if %1 neq nopause pause
+if "%1" neq "nopause" pause

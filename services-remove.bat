@@ -24,4 +24,4 @@ if %need_wait%==true timeout /t 3 /nobreak
 rd /S /Q ..\web\daemon
 rd /S /Q ..\daemon\daemon
 
-if %1 neq nopause pause
+if "%1" neq "nopause" pause
