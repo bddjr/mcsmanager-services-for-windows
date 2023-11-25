@@ -15,6 +15,11 @@
 仓库：  
 > Gitee: <https://gitee.com/bddjr/mcsmanager-services-for-windows>  
 > Github: <https://github.com/bddjr/mcsmanager-services-for-windows>  
+
+警告：
+> 该脚本与[官方文档](https://docs.mcsmanager.com/#/zh-cn/tutorial/to_windows_service)的命名不一致，因此不互通。  
+> （我在某个网友的提示下才知道7个月前官方文档已经有了）  
+
 ***
 ## 开始使用
 ### 1. 将 MCSManager 发行版下载并解压到C盘（解压到其它地方也不是不行）  
@@ -49,6 +54,8 @@
 如果你想查找这些服务，可以按键盘上的 `win`+`R` ，输入 `services.msc` 然后按键盘上的 `Enter` 打开“服务”，找到 `MCSManager-` 开头的服务。  
 
 ![create-2](README/create-2.jpg)  
+
+这些服务将以SYSTEM权限运行。如果需要以其它账号权限运行，请手动修改它们。  
 
 ***
 ## 立即启动服务

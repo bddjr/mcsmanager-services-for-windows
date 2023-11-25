@@ -14,6 +14,10 @@ Tested valid OS:
 
 Github repertoty: <https://github.com/bddjr/mcsmanager-services-for-windows>  
 
+Warning: 
+> The script does not match the naming of the [official document](https://docs.mcsmanager.com/#/zh-cn/tutorial/to_windows_service), therefore it is not compatible.  
+> (I only found out at the prompt of a netizen that the official document was already available 7 months ago)  
+
 ***
 ## Get Start
 ### 1. Download and unzip the MCSManager release to the C drive (Decompression to another location is also possible)
@@ -45,6 +49,8 @@ Double click to run `services-create.bat` . After successful completion, the eff
 If you want to find these services, you can press `win`+`R` on the keyboard, enter `services.msc` , then press `Enter` on the keyboard, and then find the services starting with `MCSManager-` .  
 
 ![create-2](create-2.jpg)  
+
+These services will run with SYSTEM privileges. If you need to run with other account permissions, please manually modify them.  
 
 ***
 ## Start services
